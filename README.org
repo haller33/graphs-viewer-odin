@@ -9,6 +9,14 @@ and knows how to serialize data on base64!
 
 *** TODO
 
+** try out Odin
+
+to start using Odin, just do on shell with
+
+#+begin_src bash
+nix develop github:haller33/Odin-Flake
+#+end_src
+
 ** motivation
 
 wish to see some graphs and under a good not bloated API to use any data and see its relations, remember graphviz but the interface is not the best.. and not even the most usual... so I wish for something that can improve the experience on viewing data on an agnostic language and data format way, as graphs
