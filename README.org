@@ -1,0 +1,21 @@
+
+* Graph Viewer
+
+Visualize Graphs as a 2D or 3D (later on!) using a Web-socket API to interact with any language that talks HTTP 1.1
+
+and knows how to serialize data on base64!
+
+** demos
+
+*** TODO
+
+** motivation
+
+wish to see some graphs and under a good not bloated API to use any data and see its relations, remember graphviz but the interface is not the best.. and not even the most usual... so I wish for something that can improve the experience on viewing data on an agnostic language and data format way, as graphs
+
+Also, I need this to see the data inside an RDF/Turtle file format... in a nice way, of course!
+
+
+* version of [[https://github.com/odin-lang/odin][Odin]]
+
+dev-2023-11:ef5eb4b61
