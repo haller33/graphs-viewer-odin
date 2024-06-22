@@ -11,7 +11,7 @@ and knows how to serialize data on base64!
 
 ** try out Odin
 
-to start using Odin, just do on shell with
+to start using Odin with [[https://nixos.org/][nix]], just do on shell with
 
 #+begin_src bash
 nix develop github:haller33/Odin-Flake

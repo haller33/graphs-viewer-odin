@@ -1,0 +1,34 @@
+#+title: Thoughts
+
+* requirements
+
+** the interface
+
+the interface must work as well on curl comand as well as a JAVA or JS http request
+
+the only requerement is the 'data' been encoded on base64, for the propose of do not have do deal with this kind of stuff
+
+below are a snipped pseud-code for exemplo of usage of the 'API'
+
+#+begin_src bash
+cat data.db
+    | awk "{print $1}"
+    | base64
+    | xargs -I '{}' curl  --header "Content-Type: application/json" \
+                        --request POST \
+                        --data '{"nodeA":"'{}'","nodeB":"A"}' \
+                        localhost:3333
+#+end_src
+
+this sould be the interface, with even curl can send data on a bash script from a file of any format.
+
+also the data must be base64 to not have to deal with XML parsing or decoding, just dealing with internal variables and then display
+
+But all data on Base64 must be only ASCII-only data, and the Base64 encoded as well.
+
+** later on
+
+integration to couchdb api to deal with ruge data sets,
+concurrency with concurrentqueue.cpp
+
+a gui using the raygui library (for now on!)

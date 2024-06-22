@@ -32,7 +32,7 @@ TEST_STATEMENT :: false
 main_source :: proc() {
 
 
-  windown_dim :: n.int2{400, 100}
+  windown_dim :: n.int2{1200, 800}
 
   when INTERFACE_RAYLIB {
 
